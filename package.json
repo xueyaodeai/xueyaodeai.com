@@ -4,21 +4,23 @@
   "description": "My personal space",
   "main": "main.js",
   "dependencies": {
-    "element-ui": "^2.4.0",
-    "vue": "^2.5.16"
+    "echarts": "^4.1.0",
+    "element-ui": "^2.4.3",
+    "vue": "^2.5.16",
+    "vue-echarts": "^3.0.9"
   },
   "engines": {
     "node": ">=6"
   },
   "devDependencies": {
-    "babel-plugin-component": "^1.1.1",
-    "eslint": "^4.19.1",
-    "eslint-config-google": "^0.9.1",
     "autoprefixer": "^6.6.0",
     "babel-core": "^6.24.1",
     "babel-loader": "^6.4.0",
+    "babel-plugin-component": "^1.1.1",
     "babel-preset-vue-app": "^1.2.0",
     "css-loader": "^0.27.0",
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1",
     "file-loader": "^0.10.1",
     "html-webpack-plugin": "^2.24.1",
     "postcss-loader": "^1.3.3",
@@ -34,10 +36,7 @@
     "dev": "webpack-dev-server --inline --hot --env.dev",
     "build": "rimraf dist && webpack -p --progress --hide-modules"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xueyaodeai/xueyaodeai.com.git"
-  },
+  "repository": "git+https://github.com/xueyaodeai/xueyaodeai.com.git",
   "author": "xueyaodeai@gmail.com",
   "license": "Apache License 2.0",
   "bugs": {
